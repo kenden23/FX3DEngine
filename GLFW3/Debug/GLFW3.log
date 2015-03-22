@@ -1,0 +1,19 @@
+﻿  XVector.cpp
+  XMatrix.cpp
+  XMath.cpp
+  Simple Heart.cpp
+  ShaderTester.cpp
+  ShaderManager.cpp
+  Quaternion.cpp
+  GeoPipeline.cpp
+  MUtilities.cpp
+  MGlfw.cpp
+  Main.cpp
+  IOX.cpp
+  Geometries.cpp
+  Concatenating Transformation.cpp
+  CameraTest.cpp
+  Camera.cpp
+  正在生成代码...
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  GLFW3.vcxproj -> D:\C++ Projects\OpenGL\GLFW3\GitHub-GLFW3\Debug\GLFW3.exe

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MyCommon">
+      <UniqueIdentifier>{96297890-ecbc-4686-8ec9-58695ad7e8c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyCommon\Math And Geo">
+      <UniqueIdentifier>{cf7e9b4a-b299-4301-9564-d50d56248360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyCommon\GLFW">
+      <UniqueIdentifier>{6683c8b8-f20d-4c14-bd70-de9fc989f806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test App">
+      <UniqueIdentifier>{ebf5ced5-a3ef-49ae-98ae-d1906451bf64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test App\Shader Tester">
+      <UniqueIdentifier>{c98dce8a-683e-4292-8a51-8486e20d6469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test App\Heart Shapes">
+      <UniqueIdentifier>{73180b8b-16eb-4a1e-ae96-6cfa77f12636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyCommon\IOmy">
+      <UniqueIdentifier>{ca924232-91f8-497e-96f4-bea071bfc313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test App\Concatenating Transformation">
+      <UniqueIdentifier>{fc734c6c-c825-4403-9f35-213c0d56e7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test App\CameraTest">
+      <UniqueIdentifier>{f8f7dc1c-adc5-4be4-9352-0ab4238f9cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Common">
+      <UniqueIdentifier>{b37854f8-cea0-43b0-8718-9acdd6576638}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Simple Heart.cpp">
+      <Filter>Test App\Heart Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderTester.cpp">
+      <Filter>Test App\Shader Tester</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>MyCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="MUtilities.cpp">
+      <Filter>MyCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometries.cpp">
+      <Filter>MyCommon\Math And Geo</Filter>
+    </ClCompile>
+    <ClCompile Include="XMath.cpp">
+      <Filter>MyCommon\Math And Geo</Filter>
+    </ClCompile>
+    <ClCompile Include="XMatrix.cpp">
+      <Filter>MyCommon\Math And Geo</Filter>
+    </ClCompile>
+    <ClCompile Include="XVector.cpp">
+      <Filter>MyCommon\Math And Geo</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>MyCommon\Math And Geo</Filter>
+    </ClCompile>
+    <ClCompile Include="MGlfw.cpp">
+      <Filter>MyCommon\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>MyCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="IOX.cpp">
+      <Filter>MyCommon\IOmy</Filter>
+    </ClCompile>
+    <ClCompile Include="Concatenating Transformation.cpp">
+      <Filter>Test App\Concatenating Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoPipeline.cpp">
+      <Filter>MyCommon\Math And Geo</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraTest.cpp">
+      <Filter>Test App\CameraTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Simple Heart.h">
+      <Filter>Test App\Heart Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderTester.h">
+      <Filter>Test App\Shader Tester</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>MyCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="MUtilities.h">
+      <Filter>MyCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="XGlobalVariables.h">
+      <Filter>MyCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometries.h">
+      <Filter>MyCommon\Math And Geo</Filter>
+    </ClInclude>
+    <ClInclude Include="XVector.h">
+      <Filter>MyCommon\Math And Geo</Filter>
+    </ClInclude>
+    <ClInclude Include="XMath.h">
+      <Filter>MyCommon\Math And Geo</Filter>
+    </ClInclude>
+    <ClInclude Include="XMatrix.h">
+      <Filter>MyCommon\Math And Geo</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>MyCommon\Math And Geo</Filter>
+    </ClInclude>
+    <ClInclude Include="MGlfw.h">
+      <Filter>MyCommon\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="Simple.h">
+      <Filter>Test App</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>MyCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="IOX.h">
+      <Filter>MyCommon\IOmy</Filter>
+    </ClInclude>
+    <ClInclude Include="Concatenating Transformation.h">
+      <Filter>Test App\Concatenating Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoPipeline.h">
+      <Filter>MyCommon\Math And Geo</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraTest.h">
+      <Filter>Test App\CameraTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

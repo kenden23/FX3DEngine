@@ -21,10 +21,15 @@ struct ShaderFileNameType
 		:name(n), type(t){}
 };
 
+/*
+Using Builder design pattern. But we can improve that.
+*/
+
 //Builder design pattern class 1
 class ShaderBuildableBase
 {
 public:
+	// for some situation, this interface is good enought.
 	virtual void addShader(const char* pShaderText, GLenum shaderType) = 0;
 	virtual void compileShader() = 0;
 	virtual void createShaderProgram() = 0;

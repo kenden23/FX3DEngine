@@ -16,7 +16,11 @@ std::string read(const char *fileName)
 	tmp[len] = '\0';
 	fread(tmp, sizeof(char), len, fp);
 	fclose(fp);
-	std::string strs = tmp;
+	std::string strs;
+	if (len > 1)
+	{
+		strs = tmp;
+	}
 	free(tmp);
 	return strs;
 }

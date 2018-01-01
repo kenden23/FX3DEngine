@@ -66,7 +66,8 @@ private:
 	Vector3f verticalAxis;
 
 	//initialized to be Vector3f(1.0f, 0.0f, 0.0f); Why this value? Because we make premised assumption that the initialized position is facing x positive direction, and it is consistent with angleH, then we use angleH to rotate to the correct position. The key is to make correct premised assumptin, so that viewInitPos and angleH are consistent.
-	//ÎªÊ²Ã´ÕâÑù³õÊ¼»¯£¿ÒòÎª¼Ù¶¨ÁË³õÊ¼Î»ÖÃÊÇÃæÏòx£¬È»ºóÍ¨¹ıangleH×ª»»µ½ĞèÒªµÄÎ»ÖÃ¡£ÈËÎª¼Ù¶¨µÄ³õÊ¼Î»ÖÃ£¬¹æ¶¨ºÃÖ®ºó²Å½øĞĞÏàÓ¦µÄĞı×ªµÄ
+	//ä¸ºä»€ä¹ˆè¿™æ ·åˆå§‹åŒ–ï¼Ÿå› ä¸ºå‡å®šäº†åˆå§‹ä½ç½®æ˜¯é¢å‘xï¼Œç„¶åé€šè¿‡angleHè½¬æ¢åˆ°éœ€è¦çš„ä½ç½®ã€‚äººä¸ºå‡å®šçš„åˆå§‹ä½ç½®ï¼Œè§„å®šå¥½ä¹‹åæ‰è¿›è¡Œç›¸åº”çš„æ—‹è½¬çš„
+	// It's all about math, can initialized to anything.
 	Vector3f viewInitPos;
 };
 
